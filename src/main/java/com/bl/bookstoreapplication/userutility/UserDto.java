@@ -1,10 +1,7 @@
 package com.bl.bookstoreapplication.userutility;
 
-import com.bl.bookstoreapplication.usermodel.Cart;
 import lombok.*;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 @Getter

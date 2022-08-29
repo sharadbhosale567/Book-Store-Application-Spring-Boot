@@ -1,6 +1,7 @@
 package com.bl.bookstoreapplication.bookmodel;
 
 import com.bl.bookstoreapplication.usermodel.Cart;
+import com.bl.bookstoreapplication.usermodel.User;
 import lombok.*;
 
 import javax.persistence.*;
@@ -22,6 +23,17 @@ public class BookStoreData {
     private int quantity;
     private String bookImage;
 
-    @ManyToOne
+//    @ManyToOne(cascade = CascadeType.ALL)
+//    private User user;
+//
+//    public User getUser() {
+//        return user;
+//    }
+//
+//    public void setUser(User user) {
+//        this.user = user;
+//    }
+
+    @ManyToOne(cascade = CascadeType.ALL)
     private Cart cart;
 }
