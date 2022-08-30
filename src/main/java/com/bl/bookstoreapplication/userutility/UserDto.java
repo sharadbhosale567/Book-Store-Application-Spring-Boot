@@ -6,7 +6,7 @@ import javax.validation.constraints.Pattern;
 
 @Getter
 @Setter
-@ToString
+//@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDto {

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import javax.validation.constraints.*;
 
 @Data
-@ToString
+//@ToString
 @Component
 @Getter
 @Setter
